@@ -14,7 +14,7 @@ Redirect /software-installer https://github.com/SanCraftDev/Software-Installer
 Redirect /setup https://github.com/SanCraftDev/Debian-Setup
 Redirect /debian https://github.com/SanCraftDev/Debian-Setup
 Redirect /setup-debian https://github.com/SanCraftDev/Debian-Setup
-Redirect /debian-setup https://github.com/SanCraftDev/Debian-Setup
+#Redirect /debian-setup https://github.com/SanCraftDev/Debian-Setup
 Redirect /github https://github.com/SanCraftDev
 Redirect /ribstnib https://github.com/SanCraftDev/ribstnib/releases/latest
 Redirect /mid https://github.com/SanCraftDev/Mod-Installer/releases/latest
