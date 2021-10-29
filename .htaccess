@@ -24,6 +24,16 @@ Redirect /sd https://github.com/SanCraftDev/Stacker/releases/latest
 Redirect /pb https://discord.com/api/oauth2/authorize?client_id=742096151301455882&scope=applications.commands+bot
 Redirect /ppt https://github.com/SanCraftDev/PufferPanel-templates/blob/main/README.md
 
+Redirect /a24dmng https://map.a24dmng.de/
+Redirect /a24 https://map.a24dmng.de/
+Redirect /lobby https://map.a24dmng.de/
+Redirect /oneblock https://ob.sancraft.de/
+Redirect /ob https://ob.sancraft.de/
+Redirect /map https://map.sancraft.de/
+Redirect /survival https://map.sancraft.de/
+Redirect /sc https://map.sancraft.de/
+Redirect /sch https://map.sancraft.de/
+
 Redirect /webmail https://mailcow.san0j.de
 Redirect /wm https://mailcow.san0j.de
 
