@@ -14,7 +14,7 @@ Redirect /software-installer https://github.com/SanCraftDev/Software-Installer
 Redirect /setup https://github.com/SanCraftDev/Debian-Setup
 Redirect /debian https://github.com/SanCraftDev/Debian-Setup
 Redirect /setup-debian https://github.com/SanCraftDev/Debian-Setup
-#Redirect /debian-setup https://github.com/SanCraftDev/Debian-Setup
+Redirect /debian-setup https://sancraft.dev/Debian-Setup
 Redirect /github https://github.com/SanCraftDev
 Redirect /ribstnib https://github.com/SanCraftDev/ribstnib/releases/latest
 Redirect /mid https://github.com/SanCraftDev/Mod-Installer/releases/latest
@@ -23,6 +23,11 @@ Redirect /ds https://github.com/SanCraftDev/Debian-Setup/blob/main/README.md#lis
 Redirect /sd https://github.com/SanCraftDev/Stacker/releases/latest
 Redirect /pb https://discord.com/api/oauth2/authorize?client_id=742096151301455882&scope=applications.commands+bot
 Redirect /ppt https://github.com/SanCraftDev/PufferPanel-templates/blob/main/README.md
+
+Redirect /xray https://www.curseforge.com/minecraft/texture-packs/xray-ultimate-1-11-compatible
+Redirect /dark https://github.com/xnebulr/Minecraft-Default-Dark-Mode/
+Redirect /18new https://www.reddit.com/r/Minecraft/comments/ilauey/i_made_a_resource_pack_that_updates_18_textures/
+Redirect /18new2 https://www.planetminecraft.com/texture-pack/1-17-ores-for-1-8-9/
 
 Redirect /a24dmng https://map.a24dmng.de/
 Redirect /a24 https://map.a24dmng.de/
