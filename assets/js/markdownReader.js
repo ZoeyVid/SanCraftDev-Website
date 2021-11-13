@@ -6,6 +6,6 @@ function readMarkdown(div, url) {
         })
         .then(text => {
             document.getElementById(div).innerHTML =
-                marked(text);
+                marked.parse(text);
         })
 }
