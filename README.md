@@ -1,3 +1,3 @@
 # SanCraft-Website
 
-The SanCraft Website
+The SanCraftDev Website
