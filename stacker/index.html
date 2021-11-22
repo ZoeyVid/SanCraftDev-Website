@@ -10,18 +10,22 @@
     <script crossorigin="anonymous"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
             src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="../assets/js/markdownReader.js"></script>
     <title>Stacker - SanCraft</title>
     <link rel="icon" href="https://dl.sancraft.dev/images/SC/SanCraft.ico">
+    <link rel="stylesheet" href="../assets/css/markdown.css">
 </head>
 <body>
 <header id="navbar">
 </header>
 <script>
     $(function () {
-        $("#navbar").load("../assets/elements/navbar.html");
+        $("#navbar").load("../assets/elements/navbar.html")
     });
 </script>
-//Text einfügen
+    <div id="text"> </div>
+<script>readMarkdown("text", "https://raw.githubusercontent.com/SanCraftDev/Stacker/master/README.md")</script>
 <footer id="footer">
 </footer>
 <script>
