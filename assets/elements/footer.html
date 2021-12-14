@@ -1,5 +1,4 @@
 <script>
-    //Links
     const imprint = "https://sancraft.dev/imprint"
     const privacy = "https://sancraft.dev/privacy"
     const github = "https://github.com/SanCraftDev/SanCraftDev-Website/blob/master" + window.location.pathname + "/index.html"
@@ -11,7 +10,15 @@
         -
         <button class="bg-dark" id="footerbutton2" onclick="window.location.href = privacy">Privacy policy</button>
         -
-        <button class="bg-dark" id="footerbutton3" onclick="window.location.href = github">View on Github</button>
+        <button class="bg-dark" id="footerbutton3" onclick="git()">View on Github</button>
+        
+        
+    <script>
+     function myFunction() {
+       window.location.href = "https://github.com/SanCraftDev/SanCraftDev-Website/blob/master" + window.location.pathname + "/index.html"
+     }
+   </script>
+        
     </div>
 </div>
 <link href="https://sancraft.dev/assets/css/footer.css" rel="stylesheet" type="text/css">
