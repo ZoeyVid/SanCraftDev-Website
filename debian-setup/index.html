@@ -29,7 +29,10 @@
         $("#navbar").load("../assets/elements/navbar.html")
     });
 </script>
-    <div id="js">Please Enable JS!</div>
+
+<script>document.getElementById("js").style.display = "none"</script>
+<div id="js">Please Enable JS!</div>
+
 <!--
 <div id="sidebar"></div>
 <script>
@@ -38,8 +41,9 @@
     });
 </script>
 -->
-<div id="text"></div>
+
 <script>readMarkdown("text", "https://raw.githubusercontent.com/SanCraftDev/Debian-Setup/main/README.md")</script>
+
 <footer id="footer">
 </footer>
 <script>
