@@ -1,1 +1,19 @@
-ErrorDocument 404 /404.html
+RewriteEngine On
+Redirect /pb https://discord.com/api/oauth2/authorize?client_id=742096151301455882&permissions=274877908992&scope=applications.commands%20bot
+
+Redirect /xray https://www.curseforge.com/minecraft/texture-packs/xray-ultimate-1-11-compatible
+Redirect /dark https://github.com/xnebulr/Minecraft-Default-Dark-Mode
+
+Redirect /discord https://discord.com/invite/d72Wjyym6m
+Redirect /dc https://discord.com/invite/d72Wjyym6m
+Redirect /github https://github.com/SanCraftDev
+Redirect /git https://github.com/SanCraftDev
+Redirect /web https://sancraft.de
+Redirect /dev https://sancraft.dev
+Redirect /podcast https://anchor.fm/sancraft
+Redirect /fm https://anchor.fm/sancraft
+Redirect /youtube https://www.youtube.com/channel/UCipvf0gWwKniPFqzjdBFuOQ
+Redirect /yt https://www.youtube.com/channel/UCipvf0gWwKniPFqzjdBFuOQ
+Redirect /twitter https://twitter.com/SanCraftDev
+
+ErrorDocument 404 https://sancraft.dev
