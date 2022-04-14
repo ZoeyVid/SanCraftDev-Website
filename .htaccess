@@ -1,19 +1,18 @@
-RewriteEngine On
-Redirect /pb https://discord.com/api/oauth2/authorize?client_id=742096151301455882&permissions=274877908992&scope=applications.commands%20bot
+Redirect 308 /pb https://discord.com/api/oauth2/authorize?client_id=742096151301455882&permissions=274877908992&scope=applications.commands%20bot
 
-Redirect /xray https://www.curseforge.com/minecraft/texture-packs/xray-ultimate-1-11-compatible
-Redirect /dark https://github.com/xnebulr/Minecraft-Default-Dark-Mode
+Redirect 308 /xray https://www.curseforge.com/minecraft/texture-packs/xray-ultimate-1-11-compatible
+Redirect 308 /dark https://github.com/xnebulr/Minecraft-Default-Dark-Mode
 
-Redirect /discord https://discord.com/invite/d72Wjyym6m
-Redirect /dc https://discord.com/invite/d72Wjyym6m
-Redirect /github https://github.com/SanCraftDev
-Redirect /git https://github.com/SanCraftDev
-Redirect /web https://sancraft.de
-Redirect /dev https://sancraft.dev
-Redirect /podcast https://anchor.fm/sancraft
-Redirect /fm https://anchor.fm/sancraft
-Redirect /youtube https://www.youtube.com/channel/UCipvf0gWwKniPFqzjdBFuOQ
-Redirect /yt https://www.youtube.com/channel/UCipvf0gWwKniPFqzjdBFuOQ
-Redirect /twitter https://twitter.com/SanCraftDev
+Redirect 308 /discord https://discord.com/invite/d72Wjyym6m
+Redirect 308 /dc https://discord.com/invite/d72Wjyym6m
+Redirect 308 /github https://github.com/SanCraftDev
+Redirect 308 /git https://github.com/SanCraftDev
+Redirect 308 /web https://sancraft.de
+Redirect 308 /dev https://sancraft.dev
+Redirect 308 /podcast https://anchor.fm/sancraft
+Redirect 308 /fm https://anchor.fm/sancraft
+Redirect 308 /youtube https://www.youtube.com/channel/UCipvf0gWwKniPFqzjdBFuOQ
+Redirect 308 /yt https://www.youtube.com/channel/UCipvf0gWwKniPFqzjdBFuOQ
+Redirect 308 /twitter https://twitter.com/SanCraftDev
 
 ErrorDocument 404 https://sancraft.dev
